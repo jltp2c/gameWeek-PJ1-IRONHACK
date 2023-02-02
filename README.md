@@ -10,7 +10,7 @@ This implementation uses the following:
 - Differents classes : bullet, bullet control, players, and the script of the game.
 
 
-[DEMO](https://jltp2c.github.io/projetGame-1/)
+[DEMO](https://jltp2c.github.io/gameWeek-PJ1-IRONHACK/)
         
 
 ## Tech Stack

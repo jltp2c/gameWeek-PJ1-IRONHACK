@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>IronHacker</title>
+</head>
+
+<body>
+    <h1></h1>
+    <div class="container">
+        <div class="rules">
+            <img class="gm" src="./img/character/gm.png" alt="GrandMa">
+            <div class="conversation">
+                <div class="grandma">
+                    <h2>Mission : </h2>
+                    <p>🚨 My little poney !! I have been attacked by a villain on my computer !!! they want me to pay a
+                        ransom ! 🚨</p>
+                </div>
+                <br>
+                <p class="palier1 remove"></p>
+                <p class="palier2 remove"></p>
+                <p class="palier3 remove"></p>
+                <p class="palier4 remove"></p>
+                <p class="palier5 remove"></p>
+                <div class="me">
+
+                     <ul>
+                        <h2>Rules :</h2>
+                        <li> - You have 200 issues to solves</p>
+
+                        </li>
+                        <li>
+                            - You need to hit the target 5 times to destroy it (One hit one 1pt) ;
+                        </li>
+                        <li>
+                            - Your grand-ma has 7 lifes, if an error touch the bottom : -1 ❤️ ;
+                        </li>
+                        <li>
+                            - You have to reach the different levels25, 50 , 75 , 100 and 200,
+                            more you reach higher more the targets are faster.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="life">
+                <div class="grandmaLife remove">
+                    <h3>Grand-Ma</h3>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <span class="heart"><img src="./img/character/life/heart.png" alt="heart"></span>
+                    <p class="word remove">Ok, actually you suck....😢🍪 NO COOKIES TODAY 🍪😢</p>
+                </div>
+
+                <h4 class="issues remove">Issues solved : <span id="score"></span></h4>
+
+                <div class="btn">
+                    <button class="start">Start</button>
+                    <button class="restart remove">Restart</button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="laptop">
+            <canvas id="game">
+
+            </canvas>
+            <img src="./img/background/bottom.png" alt="laptop">
+            <button class="mute">🔇</button>
+            <button class="demute remove">🔈</button>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>

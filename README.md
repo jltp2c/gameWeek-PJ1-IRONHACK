@@ -23,7 +23,7 @@ This implementation uses the following:
 Your GrandMa has been hacked by a vilain... Your task is to solve all the issues! Normally, you have some background... come on IRONHACKER ! 🚨 : 
 
 - You have 200 issues to solves ;
-- You need to hit the target 5 times to destroy it (One hit one 1pt) ;
+- You need to hit the target 5 times to destroy it (One hit one 1 issue solved) ;
 - Your grand-ma has 7 lifes, if an error touch the bottom : -1 ❤️ ;
 - You have to reach the different levels25, 50 , 75 , 100 and 200, more you reach higher more the targets are faster.
 
